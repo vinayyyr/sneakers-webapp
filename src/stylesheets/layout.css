@@ -1,0 +1,75 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: rgb(179, 151, 151) !important;
+}
+.nav-link{
+    color:beige !important;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.content{
+    padding-top: 80px;
+}
+
+.footer{
+    padding: 10px;
+    background-color: rgb(179, 151, 151);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button{
+    background-color: rgb(172, 124, 127);
+    box-shadow: none;
+    border: 1px solid white;
+    color:rgb(240, 240, 240);
+    padding: 5px;
+    
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:99999;
+}
+.spinner-border{
+    height: 60px;
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#uncontrolled-tab-example-tab-products{
+    color: black !important;
+}
+
+.nav-item button{
+    color: black !important;
+}
+
+.nav-tabs{
+    background-color: rgb(255, 225, 186);
+}
